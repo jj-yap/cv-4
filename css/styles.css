@@ -344,17 +344,22 @@ height: auto;
 
 }
 
+#portfolio #portfolio-carousel-1 img {
+    width: auto;
+    height: 120%;
+}
+
 #portfolio #portfolio-carousel-2 img, #portfolio #portfolio-carousel-3 img, #portfolio #portfolio-carousel-4 img,#portfolio #portfolio-carousel-5 img {
 
-    width: 100%;
-    height: auto;
-    margin: 12.5% 0;
+    width: auto;
+    height: 120%;
+    margin: 1% 0 0 0;
 }
 
 #portfolio #portfolio-carousel-6  img   {
-    width:100%;
-    height: auto;
-    margin: 5% 18.5%;
+    width: auto;
+    height: 120%;
+    margin: 2% 32%;
 }
 
 @media (max-width: 1080px, min-width:900) {
@@ -375,6 +380,7 @@ height: auto;
     line-height: 2;
 }
 
+
 #portfolio .item-entry-r {
     text-align: center;
     margin: auto;
@@ -384,6 +390,7 @@ height: auto;
 
 #portfolio .text-muted {
     text-align: justify;
+    margin: 2%  10%;
 }
 
 .text-teal {
@@ -425,4 +432,36 @@ height: auto;
     background-color: #212529;
     color: rgba(255,255,255,.5);
     padding: 2%;
+}
+
+
+/**** Mobile ***/
+
+
+@media (max-width: 1400px) {
+
+    #contact .row {
+    margin: 0 5% 5%;
+    }
+
+
+    .skills-col {
+        margin: 0;
+    }
+
+   #portfolio #portfolio-carousel-2 img, #portfolio #portfolio-carousel-3 img, #portfolio #portfolio-carousel-4 img,#portfolio #portfolio-carousel-5 img {
+
+    width: 100%;
+    height: auto;
+    margin: 1% 0 0 0;
+}
+    #experience, #education {
+        padding: 3% 0;
+    }
+
+    #portfolio #portfolio-carousel-6  img   {
+            width: 100%;
+        height: auto;
+        margin: 2% 18%;
+    }
 }
