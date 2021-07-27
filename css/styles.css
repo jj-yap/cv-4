@@ -1,0 +1,428 @@
+
+body {
+
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+h2, h3 {
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+
+
+#nav-bar nav {
+    padding: 1% 5% 1% 5%;
+    font-weight: bold;
+    font-family: "Ubuntu";
+}
+
+#nav-bar .navbar-brand, .h5, #nav-bar nav{
+    font-size: 1.5rem;
+}
+
+
+
+#experience .experience-list {
+    line-height: 2;
+}
+
+
+/* Card Shadows */
+
+.card { box-shadow: 0 0 20px 0 rgba(100, 100, 100, 0.26); }
+
+
+/* Title card */
+#title {
+    padding: 8% 15% 3% 15%;
+
+}
+
+#title .card-header {
+    background-color: #f8f9fa00;
+    padding-bottom: 5%;
+}
+
+#title .title-avatar {
+    padding: 50px 0 50px 0;
+}
+
+#title .title-name {
+    font-family: "Ubuntu"; }
+
+#title .title-name,  {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+#title .title-brief {
+    font-size: 1.15rem;
+    line-height: 1.3;
+}
+
+#title .title-social-accounts {
+    padding-bottom: 1.2%;
+}
+
+#title .btn.btn-dark {
+    margin: 0px 15px;
+}
+
+
+@media (max-width: 1028px) {
+
+
+    #title .btn.btn-dark {
+    display:block;
+    margin: auto auto 2% auto;
+}
+    #title {
+    padding: 15% 15% 12% 15%;
+}
+
+
+}
+
+    /* Image settings */
+
+    #title .title-image {
+        color: black;
+        border: solid;
+        border-color: grey;
+    }
+
+    .shadow-2-strong {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 8px 0px, rgba(0, 0, 0, 0.2) 0px 5px 15px 2px !important;
+    }
+
+    .img-thumbnail {
+        background-color: rgb(255, 255, 255);
+        padding: 0.25rem;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(224, 224, 224);
+        border-image: initial;
+        border-radius: 0.25rem;
+    }
+
+    .img-fluid, .img-thumbnail {
+        max-width: 100%;
+        height: auto;
+    }
+
+    img, svg {
+        vertical-align: middle;
+    }
+
+    img[Attributes Style] {
+        width: 160px;
+        aspect-ratio: auto 160 / 160;
+        height: 160px;
+    }
+
+/** END of title section **/
+
+/** About me section **/
+
+#about-me .container-fluid {
+    padding: 6% 15% 6%;
+    text-align: left;
+}
+
+#about-me .about-me-body {
+    padding: 0 0 0 0;
+    line-height: 2.5;
+
+}
+
+
+
+#about-me-body-id1,#about-me .about-me-body.brief  {
+    text-align:center;
+}
+
+@media (max-width: 1028px) {
+
+    #about-me .about-me-body {
+    padding: 3.8% 15%;
+    line-height: 2;
+    text-align: center;
+
+}
+    #about-me .container-fluid {
+    padding: 2% 15% 6%;
+    line-height: 2;
+    text-align: center;
+}
+}
+
+
+/* Bio */
+
+#about-me .pb-2.fw-bolder {
+    display: inline-block;
+}
+
+#about-me .bio-entry h6 {
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+/** Carousel - About - Me **/
+
+.carousel-control-next, .carousel-control-prev {
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-indicators li {
+    background-color: black;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 35px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 35px;
+  color: black;
+}
+
+.carousel-item {
+    padding: 0 20% 5%;
+}
+
+@media (max-width: 1080px) {
+
+    #about-me .about-me-body {
+    padding: 3.8% 0;
+    line-height: 2;
+    text-align: center;
+    width: 100%;
+}
+    #about-me .container-fluid {
+    padding: 2% 3% 6%;
+    line-height: 2;
+    text-align: center;
+}
+
+    .carousel-item {
+    padding: 0 0 5%;
+}
+
+    .carousel-control-next-icon:after
+    {
+      color: transparent;
+    }
+
+    .carousel-control-prev-icon:after {
+      color: transparent;
+    }
+
+
+
+}
+
+
+
+/** End of about me section **/
+
+/** Start of skills section **/
+
+#skills,#experience,#education {
+   padding: 0 18% 5%;
+}
+
+#skills .card, #experience .card, #education .card {
+    margin: auto;
+}
+
+#skills .card.skills .card-body p {
+    text-align:left;
+}
+
+#skills .pb-2.fw-bolder {
+    text-align: left;
+}
+
+.card.skills{
+    width: 18rem;
+    margin: auto;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+.card.education, .card.experience {
+    width: 75%;
+    text-align:left;
+    margin: auto;
+}
+
+.text-muted.medium {
+    font-weight: 500;
+}
+
+.text-muted.small {
+    font-weight: 400;
+}
+
+.navbar {
+    transition: top 0.5s ease;
+}
+
+.navbar-hide {
+    top: -100px;
+}
+
+@media (max-width: 800px) {
+
+    .navbar-hide {
+    top: -500px;
+}
+}
+
+/** End of skills section **/
+
+
+/** Start of portfolio section  **/
+
+.portfolio-row {
+    margin: 0 0;
+}
+
+.port-col {
+    padding: 3% 2%;
+
+}
+
+.text-align-left {
+
+    margin:auto;
+    text-align:left;
+}
+
+/* port carousel */
+
+#portfolio .carousel-item {
+height: 500px;
+overflow: hidden;
+width: 100%;
+
+}
+
+#portfolio .card {
+    margin: 3%;
+}
+
+.h2.fw-light.mb-4 {
+    font-family: "Ubuntu";
+    font-weight: bold;
+    text-align: center;
+}
+
+#portfolio .portfolio-image {
+    margin: 0 0;
+}
+
+#portfolio .row {
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#portfolio .carousel-item img {
+width: 100%;
+height: auto;
+
+}
+
+#portfolio #portfolio-carousel-2 img, #portfolio #portfolio-carousel-3 img, #portfolio #portfolio-carousel-4 img,#portfolio #portfolio-carousel-5 img {
+
+    width: 100%;
+    height: auto;
+    margin: 12.5% 0;
+}
+
+#portfolio #portfolio-carousel-6  img   {
+    width:100%;
+    height: auto;
+    margin: 5% 18.5%;
+}
+
+@media (max-width: 1080px, min-width:900) {
+
+    #portfolio #portfolio-carousel-6  img   {
+    width:100%;
+    height: auto;
+    margin: 45% 18.5%;
+}
+
+}
+
+
+#portfolio .item-entry {
+    text-align: center;
+    margin: auto;
+    padding: 0 5%;
+    line-height: 2;
+}
+
+#portfolio .item-entry-r {
+    text-align: center;
+    margin: auto;
+        padding: 0 8%;
+    line-height: 2;
+}
+
+#portfolio .text-muted {
+    text-align: justify;
+}
+
+.text-teal {
+    color: teal;
+    font-size: 0.9rem;
+}
+
+
+/* Contact Form */
+
+#contact .column {
+    margin: auto;
+    padding: 0 15%;
+}
+
+#contact .row {
+    margin: 0 35% 5%;
+}
+
+#contact form {
+    text-align: left;
+}
+
+
+@media (max-width: 1080px) {
+
+    #contact .row {
+    margin: 0 5% 5%;
+    }
+}
+
+#contact .details {
+    margin-bottom: 15x;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #212529;
+    color: rgba(255,255,255,.5);
+    padding: 2%;
+}
