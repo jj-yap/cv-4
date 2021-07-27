@@ -440,10 +440,14 @@ height: auto;
 
 @media (max-width: 1400px) {
 
+    body {
+        font-size: 1.5rem;   
+    }
+    
     #contact .row {
     margin: 0 5% 5%;
     }
-
+    
 
     .skills-col {
         margin: 0;
